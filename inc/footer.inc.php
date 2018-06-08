@@ -59,7 +59,7 @@
             </div>
                 <div class="col-md-5">
                 <div class="copyright pull-right">
-                <p>Website Developed by <a href="http://mktechnosoft.com/" target="_blank">&nbsp; AkkireddyRajeshKumar</a></p>
+                <p>Website Developed and Maintaing by <a href="http://mktechnosoft.com/" target="_blank">&nbsp; MkTechno Soft</a></p>
                 </div>
                 </div>
         </div>

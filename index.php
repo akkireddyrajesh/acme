@@ -160,7 +160,7 @@
 				</div>
 				<div class="col-md-12">
 					<p class="col-md-offset-1 col-md-10 text-justify ">
-						Our Vision is to be the global leader and provider of choice for Business Sollutions Business Sollutions Sollutions Sollutions and knowledge process outsourcing services.
+					Our Vision is to be the global leader and provider of choice for Business Solutionsand consulting companies across the nation. We acknowledge the fact that cloud computing is revolutionizing the information technology sector and ACME aims to lead with solutions, trainings and consulting – providing an extensive range of cloud solutions, security and virtualization solutions.
 					</p>
 				</div>
 
@@ -172,7 +172,7 @@
 				</div>
 				<div class="col-md-12">
 					<p class="col-md-offset-1 col-md-10 text-justify ">
-						We understand client needs and the issues facing Business Sollutions today. We always ensure those needs are at the center of our decision making process. We maximize revenue for our clients with a range of strategic service offerings including medical billing, provider management, patient engagement, patient eligibility and provider credentialing.				
+					We are committed to deliver the most reliable and high-quality training and cloud consulting services to our distinguished clients. We are backed by a team of top class professionals, innovative technologies and user-friendly client engagement methodologies to provide the best quality solutions to our clients. ACME Business Solutions is always being an organization where it celebrates innovation, and sophistication in cloud computing technologies. We work as a team to offer best in class solutions to our customers and clients.We understand client needs and their issues facing Business Solutions today. We always ensure those needs are at the center of our decision-making process. 
 					</p>
 				</div>
 			</div>
@@ -246,8 +246,8 @@
 					<div class="col-xs-12">
 						<figure class="clearfix">
 							<div class="col-md-7 col-md-offset-3">
-								<h3 class="text-center testmonial-h animated zoomIn">"I couldn't have asked for more than this. Sunsoft Services Inc. on Time."</h3>
-								<p class="text-center testmonial-p animated zoomIn">ABCD, CEO & Co Founder, xxxx Consult.</p>
+								<h3 class="text-center testmonial-h animated zoomIn">"ACME Business Solutions has provided excellent services by providing solid candidates very quickly. ACME is our go to vendor for security resources now. "</h3>
+								<p class="text-center testmonial-p animated zoomIn">- Genesis10</p>
 							</div>
 						</figure>
 					</div>
@@ -258,8 +258,8 @@
 					<div class="col-xs-12">
 						<figure class="clearfix">
 							<div class="col-md-7 col-md-offset-3">
-								<h3 class="text-center testmonial-h animated zoomIn">"I couldn't have asked for more than this. Sunsoft Services Inc. on Time."</h3>
-								<p class="text-center testmonial-p animated zoomIn">ABCD, CEO & Co Founder, xxxx Consult.</p>
+								<h3 class="text-center testmonial-h animated zoomIn">"I have been working with ACME Business Solutions andit’s team members since 2012. ACME has continuously provided top notch quality resources to W3R and is listed internally as one of our premiere vendors to work with. "</h3>
+								<p class="text-center testmonial-p animated zoomIn">– W3R Consulting</p>
 							</div>
 						</figure>
 					</div>
@@ -270,13 +270,26 @@
 					<div class="col-xs-12">
 						<figure class="clearfix">
 							<div class="col-md-7 col-md-offset-3">
-								<h3 class="text-center testmonial-h animated zoomIn">"I couldn't have asked for more than this.Sunsoft Services Inc. on Time."</h3>
-								<p class="text-center testmonial-p animated zoomIn">ABCD, CEO & Co Founder, xxxx Consult.</p>
+								<h3 class="text-center testmonial-h animated zoomIn">"ACME’S candidates are highly professional and have been of senior level. A good source for experienced corporate IT professionals."</h3>
+								<p class="text-center testmonial-p animated zoomIn">- Fast Switch</p>
 							</div>
 						</figure>
 					</div>
 				</div>
 			</div>
+			<div class="item">
+				<div class="row">
+					<div class="col-xs-12">
+						<figure class="clearfix">
+							<div class="col-md-7 col-md-offset-3">
+								<h3 class="text-center testmonial-h animated zoomIn">"ACME Business Solutions is one of the best vendors we have worked with. They always helpus in finding rare skill sets in security and have excellent pool of resources."</h3>
+								<p class="text-center testmonial-p animated zoomIn">- Randstad</p>
+							</div>
+						</figure>
+					</div>
+				</div>
+			</div>
+
 		</div>
 		<!-- Controls -->
 		<a class="left carousel-control" href="#tcb-testimonial-carousel" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span> </a>
