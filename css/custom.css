@@ -1100,7 +1100,8 @@ p.adress:before {
     width: 130px;
     height: 130px;
 }
-.logo{height:86px;background-color:#f1bd5d !important;}
+.logo{height:86px;}
+/* .logo{height:86px;background-color:#f1bd5d !important;} */
 
 
 /* ============================ acme_media.php starts =========================*/
