@@ -186,32 +186,41 @@
 <section class="container-fluid sec_clients">
 	<article class="container services">
 		<div class="row">
-			<div class="col-md-11"> 
-				<div class="col-md-12">
-					<h2 class="text-center sunSoft-head">OUR CLIENTS</h2>
-					<div class="col-md-12 text-center"><p class="underline"></p></div>
-					<!-- clients1 -->
-					<div class="col-md-3 clients_1">
-						<p class="clients-p wow slideInDown"><img src="images/client.png" class="client_img"  height="140px" width="200px"/></p>
-					</div>
-					<!-- clients1 -->
-					<!-- clients2 -->
-					<div class="col-md-3 clients_2 wow slideInDown">
-						<p class="clients-p"><img src="images/client.png" class="client_img"  height="140px" width="200px"/></p>
-					</div>
-					<!-- clients2 -->
-					<!-- clients3 -->
-					<div class="col-md-3 clients_3 wow slideInDown">
-						<p class="clients-p"><img src="images/client.png" class="client_img"  height="140px" width="200px"/></p>
-					</div>
-					<!-- clients3 -->
-					<!-- clients4 -->
-					<div class="col-md-3 clients_4 wow slideInDown">
-						<p class="clients-p"><img src="images/client.png" class="client_img"  height="140px" width="200px" /></p>
-					</div>
-					<!-- clients4 -->
-				</div><!--col-10-->
-			</div><!-- col-10 -->
+			<div class="col-md-12">
+				<h2 class="text-center sunSoft-head">OUR CLIENTS</h2>
+				<div class="col-md-12 text-center"><p class="underline"></p></div>
+				<!-- clients1 -->
+				<div class="col-md-2 clients_1">
+					<p class="clients-p wow slideInDown"><img src="images/clients/client_anthem.png" class="client_img" height="90px"  /></p>
+					<!-- <p class="clients-p wow slideInDown"><img src="images/clients/client1.png" class="client_img"  height="140px" width="200px"/></p> -->
+				</div>
+				<!-- clients1 -->
+				<!-- clients2 -->
+				<div class="col-md-2 clients_2 wow slideInDown">
+					<p class="clients-p client_northwestern_bg"><img src="images/clients/client_northwestern.png" class="client_img"  height="90px" /></p>
+				</div>
+				<!-- clients2 -->
+				<!-- clients3 -->
+				<div class="col-md-2 clients_3 wow slideInDown">
+					<p class="clients-p client_medtronic_bg"><img src="images/clients/client_medtronic.png" class="client_img"  height="90px"/></p>
+				</div>
+				<!-- clients3 -->
+				<!-- clients4 -->
+				<div class="col-md-2 clients_4 wow slideInDown">
+					<p class="clients-p client_spectrum_bg"><img src="images/clients/client_spectrum.png" class="client_img"  height="90px" /></p>
+				</div>
+				<!-- clients4 -->
+				<!-- clients5 -->
+				<div class="col-md-2 clients_4 wow slideInDown">
+					<p class="clients-p client_chevron_bg"><img src="images/clients/client_chevron.png" class="client_img"  height="90px"/></p>
+				</div>
+				<!-- clients5 -->
+				<!-- clients6 -->
+				<div class="col-md-2 clients_4 wow slideInDown">
+					<p class="clients-p client_cardinalhealth_bg"><img src="images/clients/client_cardinalhealth.png" class="client_img"  height="90px"/></p>
+				</div>
+				<!-- clients6 -->
+			</div><!--col-10-->
 		</div><!-- row -->
 	</article>
 </section>

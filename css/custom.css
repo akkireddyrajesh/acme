@@ -161,22 +161,27 @@ nav.navbar::before {
 /*-- /services1 --*/
 
 /*-- testmonial --*/
-
-
-.testmonial{padding:80px 0;font-family:Montserrat;}
-.sec_testmonial .item{padding: 20px;}
-.testmonial-h{margin:20px 0;}
-.testmonial-p{font-size:10px;color:rgb(60, 60, 60);}
-.sec_testmonial{
-    background: #F7F7F7;
-    color: #07aca6;
-}
-.carousel-control.left,.carousel-control.right{background:transparent;}
-.follow-btn{color:white;background: #ef3b6d;padding: 16px 10px;}
-.follow-btn:hover{background:white;color: #ef3b6d;}
-.follow-btn_soc_icon{color:#0483ab;}
+    .testmonial{padding:80px 0;font-family:Montserrat;}
+    .sec_testmonial .item{padding: 20px;}
+    .testmonial-h{margin:20px 0;}
+    .testmonial-p{font-size:10px;color:rgb(60, 60, 60);}
+    .sec_testmonial{
+        background: #F7F7F7;
+        color: #07aca6;
+    }
+    .carousel-control.left,.carousel-control.right{background:transparent;}
+    .follow-btn{color:white;background: #ef3b6d;padding: 16px 10px;}
+    .follow-btn:hover{background:white;color: #ef3b6d;}
+    .follow-btn_soc_icon{color:#0483ab;}
 
 /*-- /testmonial --*/
+
+/* clients */
+    .client_northwestern_bg{ background-color: #192228;}
+    .client_medtronic_bg{ background-color: #004b87;}
+    .client_spectrum_bg{ background-color: #00203d;}
+    /* .client_northwestern_bg{ background-color: #192228;} */
+/* clients */
 
 /*-- slider --*/
 
