@@ -19,11 +19,11 @@
 <?php include('inc/header.inc.php'); ?>
 
 <!-- banner -->
-<section class="bannerGrid page-info-banner page_head banner_img banner_services_img">
+<section class="bannerGrid page-info-banner page_head banner_img banner_offerings_img">
 	<!-- banner-text -->
 	<div class="services_img_text page-info-banner-text col-md-6">
-		<p> </p>
-		<p> </p><br/><br/>
+		<!-- <p> </p> -->
+		<!-- <p> </p><br/><br/> -->
 		<p>Take your Business to the Next Level with our Solutions</p>
 		<p> </p>
 	</div>

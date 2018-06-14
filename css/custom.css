@@ -866,6 +866,10 @@ p.adress:before {
     .banner_careers_img{
         background-image:url(../images/careers/career.jpg);   
     }
+    .btn-jobDesc{
+        background-color: #ef3b6d;
+        color: white;
+    }
 
 
 .services_menu{

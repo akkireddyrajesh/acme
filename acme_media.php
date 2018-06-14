@@ -5,7 +5,7 @@
 <?php include( 'inc/meta.php') ?>
 <!-- headtag -->
 <link rel="icon" href="images/fav_icon.png" type="image/png" sizes="16x16">
-<title>ACME  || Contact us</title>
+<title>ACME  || Media</title>
 
 <!-- CSS Files -->
 <?php include( 'inc/css.inc.php') ?>

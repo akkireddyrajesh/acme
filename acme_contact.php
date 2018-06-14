@@ -67,7 +67,8 @@
 					<li><span><i class="fa fa-building" aria-hidden="true"></i></span>D.No: 55-1-3, Plot No 3,</li>
 					<li><span><i class="fa fa-map-marker" aria-hidden="true"></i></span>Road No 4, Industrial Estate, Autonagar,</li>
 					<li><span><i class="fa fa-globe" aria-hidden="true"></i></span>Vijayawada-520007, Andhra Pradesh, India.</li>
-					<li><span><i class="fa fa-phone" aria-hidden="true"></i></span>Phone: 9948915899 </li>
+					<li><span><i class="fa fa-phone" aria-hidden="true"></i></span>Phone: 0866-2556677 </li>
+					<li><span><i class="fa fa-envelope" aria-hidden="true"></i></span>Email: info@acmebs.net </li>
 					<!-- <li><span><i class="fa fa-fax" aria-hidden="true"></i></span>Fax: 2012218510 </li> -->
 				</ul>
 				<!-- <p class="contact-country">Office in India</p>
@@ -79,7 +80,7 @@
 					<li><span><i class="fa fa-phone" aria-hidden="true"></i></span>Mobile: 09985706290</li>
 				</ul> -->
 			</div>
-			<div class="col-md-12">
+			<!-- <div class="col-md-12">
 				<h4 class="title_sub_sub">General Information</h4>
                 <p class="text_content">
                     For general information please send us an e-mail at <span class="highLight">accounts@acmebs.net</span>
@@ -88,13 +89,12 @@
                 <p class="text_content">
                    For employment please contact our Human Resources department at <span class="highLight">venkat@acmebs.net</span>
                 </p>
-			</div>
+			</div> -->
 		</div><!--row-->
 		<h3 class="tittle row text-center">View On map</h3>
 		<div class="row map">
-			<iframe class="col-md-12" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d2482.432383990807!2d0.028213999961443994!3d51.52362882484525!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1423469959819" style="border:0"></iframe>
+			<iframe class="col-md-12" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61206.51426333122!2d80.6675072895582!3d16.505530758489407!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a35fadc21ba33c3%3A0x90a69ab3b5c067a8!2sACME+Business+Solutioons+Private+Limited!5e0!3m2!1sen!2sin!4v1528996494861" style="border:0"></iframe>
 		</div><!--row-->
-
 	</div><!--container-->
 </section>
 

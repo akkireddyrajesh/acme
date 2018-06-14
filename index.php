@@ -118,7 +118,7 @@
 		<div class="row">
 			<div class="col-md-5">
 				<figure class="home_about_fig ">
-					<img class="wow zoomIn" src="images/home_about.jpg" alt="SunSoft about" width="100%"/>
+					<img class="wow zoomIn" src="images/home_about.png" alt="SunSoft about" width="100%"/>
 				</figure>
 			</div>
 
