@@ -58,43 +58,35 @@
 
 			<div class="col-md-6">
 				<button class="btn btn-jobDesc" data-toggle="collapse" data-target="#jobDescription">Job Description</button>
-				<div id="jobDescription" class="collapse">
-					<h4>Location: Vijayawada</h4>
-					<h5>Required Skills (Freshers):</h5>
-					<ul class=" col-md-12 list-circle text_content">
-						<li>Need to have excellent communication skills.</li>
-						<li>Must be able to work in USA timings.</li>
-						<li>Individual with passionate and choose their career in Recruiting Sector.</li>
-						<li>Very passionate dealing with American Vendors or Clients.</li>
-						<li>Must be able to commit for a long period (Not less than 2 years).</li>
-					</ul>
-					<!-- Trigger the modal with a button -->
-					<!-- <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#applyJob">Apply Now</button> -->
-
-
-<?php
-
+				
+				<?php
+					echo "<br/>";
 //Careers Job Apply
 
 require 'PHPMailer/PHPMailerAutoload.php';
 
 try {
+	//Pre Requisites
+	$acme_email = "info@acmebs.net";
+	$acme_Cc = "akkireddyrajesh@gmail.com,venkat.ync@gmail.com";
 
 	if(isset($_POST['applyJobFormBtn'])) {
-		echo "im here";
+
 		$mail = new PHPMailer;
 
+		$mail->From       = $_POST['email'];	
 		$mail->FromName   = $_POST['name'];
 
-		$to_email = $_POST['email'];
+		// $to_email = $_POST['email'];
+		$to_email = acme_email;
 
 		$mail->AddAddress($to_email);
 
-		$mail->From       = $acme_email;		
+		$mail->AddReplyTo($_POST['email']);
 
 		$mail->Subject  = "New Job Application";
 
-		$body = "<table>
+		$body = "<table rules='all' style='border-color: #666;' cellpadding='10'>
 
 			<tr>
 
@@ -139,8 +131,6 @@ try {
 
 		$mail->IsSendmail();
 
-		$mail->AddReplyTo("prasadvenkatacbit@gmail.com");
-
 		$mail->AltBody    = "To view the message, please use an HTML compatible email viewer!"; 
 
 		$mail->WordWrap   = 80; 
@@ -151,7 +141,8 @@ try {
 
 		$mail->Send();
 
-		echo 'The message has been sent.';
+				
+		echo '<div class="well bg-success well-lg">Applied Successfully ... <br/>Our Adminstrative will contact you soon...</div>';
 
 	}
 
@@ -161,7 +152,26 @@ try {
 
 }
 
-?>
+?>				
+				
+				
+				
+				
+				<div id="jobDescription" class="collapse">
+					<h4>Location: Vijayawada</h4>
+					<h5>Required Skills (Freshers):</h5>
+					<ul class=" col-md-12 list-circle text_content">
+						<li>Need to have excellent communication skills.</li>
+						<li>Must be able to work in USA timings.</li>
+						<li>Individual with passionate and choose their career in Recruiting Sector.</li>
+						<li>Very passionate dealing with American Vendors or Clients.</li>
+						<li>Must be able to commit for a long period (Not less than 2 years).</li>
+					</ul>
+					<!-- Trigger the modal with a button -->
+					<!-- <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#applyJob">Apply Now</button> -->
+
+
+
 
 
 

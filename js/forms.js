@@ -60,36 +60,36 @@ $(function() {
     });
 
     //Career Job apply
-    $('#applyJobForm').submit(function (e) {
-        e.preventDefault();
-        // Get form
-        var  formData= $('#applyJobForm')[0];
+    // $('#applyJobForm').submit(function (e) {
+    //     e.preventDefault();
+    //     // Get form
+    //     var  formData= $('#applyJobForm')[0];
 
-		// Create an FormData object 
-        var jobFormData = new FormData(formData);
+	// 	// Create an FormData object 
+    //     var jobFormData = new FormData(formData);
 
-        // disabled the submit button
-        $("#applyJobFormBtn").prop("disabled", true);
+    //     // disabled the submit button
+    //     $("#applyJobFormBtn").prop("disabled", true);
 
-        console.log('Apply Job form', jobFormData);
+    //     console.log('Apply Job form', jobFormData);
 
-        $.ajax({
-            type: "POST",
-            enctype: 'multipart/form-data',
-            url: 'acmeFunctions.php',            
-            data: jobFormData,
-            processData: false,
-            contentType: false,
-            cache: false,
-            timeout: 600000,
-            success: function(data) {
-                console.log('ajax data', data);
+    //     $.ajax({
+    //         type: "POST",
+    //         enctype: 'multipart/form-data',
+    //         url: 'acmeFunctions.php',            
+    //         data: jobFormData,
+    //         processData: false,
+    //         contentType: false,
+    //         cache: false,
+    //         timeout: 600000,
+    //         success: function(data) {
+    //             console.log('ajax data', data);
                 
-            }
-        });
+    //         }
+    //     });
 
 
-    });
+    // });
 
 
 });
