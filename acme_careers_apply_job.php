@@ -57,7 +57,7 @@
 			</div>
 
 			<div class="col-md-6">
-				<button class="btn btn-jobDesc" data-toggle="collapse" data-target="#jobDescription">Job Description</button>
+				<button class="btn btn-jobDesc" data-toggle="collapse" data-target="#jobDescription">Open Positions</button>
 				
 				<?php
 					echo "<br/>";

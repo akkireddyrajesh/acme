@@ -57,7 +57,7 @@
 			</div>
 
 			<div class="col-md-6">
-				<button class="btn btn-jobDesc" data-toggle="collapse" data-target="#jobDescription">Job Description</button>
+				<button class="btn btn-jobDesc" data-toggle="collapse" data-target="#jobDescription">Open Positions</button>
 				<div id="jobDescription" class="collapse">
 					<h4>Location: Vijayawada</h4>
 					<h5>Required Skills (Freshers):</h5>

@@ -1103,7 +1103,9 @@ p.adress:before {
     -webkit-box-shadow: 0 3px 3px -1px rgba(0,0,0,.26);
     box-shadow: 0 3px 3px -1px rgba(0,0,0,.26);
     top: -3px;
+    background-color: #e25a27eb;
 }
+.mega-menu > a:hover{ color:white;}
 .logo>a{padding-top: 11%;}
 .offerings_img{
     width: 130px;

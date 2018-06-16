@@ -2,13 +2,20 @@
 <html lang="en">
  <head>
 	<!--Auther: Akkireddy Rajesh Kumar
-	 	Version: ACMEV1.1b
-		Rl Dt: 26.04.18    -->
+	 	Version: ACMEV2.0
+		Rl Dt: 16.06.18    -->
 <!--Meta File -->
 <?php include( 'inc/meta.php') ?>
  <!-- headtag -->
 <link rel="icon" href="images/g.png" type="image/png" sizes="16x16">
  <title>ACME  || Home</title>
+
+<meta name="keywords" content="ACME, ACME Business, ACME Business Solutions, ACME Business Solutions pvt ltd, ACME Business Solutions private limited, ACME, Business Solutions ">
+<meta name="description" content="ACME Business Solutions private limited">
+<meta name = "revised" content = "ACME, 16/06/2018" />
+<meta name="author" content="Akkireddy Rajesh Kumar">
+<meta http-equiv = "Content-Type" content = "text/html; charset = UTF-8" />
+<meta name="robot" content="index">
 
  <!-- CSS Files -->
 <?php include( 'inc/css.inc.php') ?>
