@@ -61,103 +61,105 @@
 				
 				<?php
 					echo "<br/>";
-//Careers Job Apply
+					//Careers Job Apply
 
-require 'PHPMailer/PHPMailerAutoload.php';
+					require 'PHPMailer/PHPMailerAutoload.php';
 
-try {
-	//Pre Requisites
-	$acme_email = "info@acmebs.net";
-	$acme_Cc = "akkireddyrajesh@gmail.com,venkat.ync@gmail.com";
+					try {
+						//Pre Requisites
+						$acme_email = "info@acmebs.net";
+						$acme_Cc = "akkireddyrajesh@gmail.com,venkat.ync@gmail.com";
 
-	if(isset($_POST['applyJobFormBtn'])) {
+						if(isset($_POST['applyJobFormBtn'])) {
 
-		$mail = new PHPMailer;
+							$mail = new PHPMailer;
 
-		$mail->From       = $_POST['email'];	
-		$mail->FromName   = $_POST['name'];
+							$mail->From       = $_POST['email'];	
+							$mail->FromName   = $_POST['name'];
 
-		// $to_email = $_POST['email'];
-		$to_email = acme_email;
+							// $to_email = $_POST['email'];
+							$to_email = acme_email;
 
-		$mail->AddAddress($to_email);
+							$mail->AddAddress($to_email);
 
-		$mail->AddReplyTo($_POST['email']);
+							$mail->AddReplyTo($_POST['email']);
 
-		$mail->Subject  = "New Job Application";
+							$mail->Subject  = "New Job Application";
 
-		$body = "<table rules='all' style='border-color: #666;' cellpadding='10'>
+							$body = "<table rules='all' style='border-color: #666;' cellpadding='10'>
 
-			<tr>
+								<tr>
 
-				<th colspan='2'>Candidate Data</th>
+									<th colspan='2'>Candidate Data</th>
 
-			</tr>
+								</tr>
 
-			<tr>
+								<tr>
 
-				<td>Name :</td>
+									<td>Name :</td>
 
-				<td>".$_POST['name']."</td>
+									<td>".$_POST['name']."</td>
 
-			</tr>
-			<tr>
+								</tr>
+								<tr>
 
-				<td>Qualification :</td>
+									<td>Qualification :</td>
 
-				<td>".$_POST['qualification']."</td>
+									<td>".$_POST['qualification']."</td>
 
-			</tr>
-			<tr>
+								</tr>
+								<tr>
 
-				<td>Mobile  :</td>
+									<td>Mobile  :</td>
 
-				<td>".$_POST['mobile']."</td>
+									<td>".$_POST['mobile']."</td>
 
-			</tr>
-			<tr>
+								</tr>
+								<tr>
 
-			<td>E-mail : </td>
+								<td>E-mail : </td>
 
-			<td>".$_POST['email']."</td>
+								<td>".$_POST['email']."</td>
 
-			</tr>	
+								</tr>	
 
-			<table>";
+								<table>";
 
-		$body = preg_replace('/\\\\/','', $body);
+							$body = preg_replace('/\\\\/','', $body);
 
-		$mail->MsgHTML($body);		
+							$mail->MsgHTML($body);		
 
-		$mail->IsSendmail();
+							$mail->IsSendmail();
 
-		$mail->AltBody    = "To view the message, please use an HTML compatible email viewer!"; 
+							$mail->AltBody    = "To view the message, please use an HTML compatible email viewer!"; 
 
-		$mail->WordWrap   = 80; 
+							$mail->WordWrap   = 80; 
 
-		$mail->AddAttachment($_FILES['attach']['tmp_name'], $_FILES['attach']['name']);
+							$mail->AddAttachment($_FILES['attach']['tmp_name'], $_FILES['attach']['name']);
 
-		$mail->IsHTML(true);
+							$mail->IsHTML(true);
 
-		$mail->Send();
+							$mail->Send();
 
-				
-		echo '<div class="well bg-success well-lg">Applied Successfully ... <br/>Our Adminstrative will contact you soon...</div>';
+									
+							echo '<div class="well bg-success well-lg">Applied Successfully ... <br/>Our Adminstrative will contact you soon...</div>';
 
-	}
+						}
 
-} catch (phpmailerException $e) {
+					} catch (phpmailerException $e) {
 
-	echo $e->errorMessage();
+						echo $e->errorMessage();
 
-}
+					}
 
-?>				
-				
+				?>				
 				
 				
 				
 				<div id="jobDescription" class="collapse">
+					
+					
+					
 					<h4>Location: Vijayawada</h4>
 					<h5>Required Skills (Freshers):</h5>
 					<ul class=" col-md-12 list-circle text_content">
@@ -168,14 +170,33 @@ try {
 						<li>Must be able to commit for a long period (Not less than 2 years).</li>
 					</ul>
 					<!-- Trigger the modal with a button -->
-					<!-- <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#applyJob">Apply Now</button> -->
+					<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#applyJob">Apply Now</button>
+					<br/>
+					<br/>
 
-
-
-
-
+					<h4>Role: Business Development Manager (US IT Staffing)</h4>
+					<h4>Work Location: Hyderabad/Vijayawada</h4>
+					<h4>DESCRIPTION: </h4>
+					<p>ACME Business Solutions is in need of Senior Business Development Manager who is responsible getting client accounts. Desired candidate must have an existing client relationship and a proven track record of success in getting IT Clients. Your goal is to identify potential clients and interact with Hiring Managers of clients who regularly releasing contract and/or contract-to-hire IT Staff augmentation services. You will be responsible in materializing existing vendor/client accounts or contracts and build this network.
+					</p>
+					<h4>Required Skills:</h4>
+					<ul class=" col-md-12 list-circle text_content">
+						<li>Strong knowledge of Staffing Industry.</li>					
+						<li>Must have a proven track record in getting new client acquisition and business development.</li>					
+						<li>Identify Client requirements and maintain relationships to serve clients in a better way.</li>					
+						<li>Leverage existing relationships and network to open new business
+							Interact routinely with various levels of management, functional leads, other staff, and customers
+							Ability to travel as required, based on negotiated work location.</li>					
+						<li>Sole responsibility is to obtain new job orders for recruiters to fill.</li>					
+						<li>Excellent presentation and written communication skills in consultative settings, interact with compliance/Hiring Managers and Business Owners.</li>					
+						<li>Effectively present our services to new and existing clients.</li>					
+					</ul>
+					<!-- Trigger the modal with a button -->
+					<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#applyJob">Apply Now</button>
+					<br/>
 
 				</div>
+				
 			</div>
 			
 		</div><!--row-->

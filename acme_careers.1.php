@@ -59,9 +59,6 @@
 			<div class="col-md-6">
 				<button class="btn btn-jobDesc" data-toggle="collapse" data-target="#jobDescription">Open Positions</button>
 				<div id="jobDescription" class="collapse">
-					
-					
-					
 					<h4>Location: Vijayawada</h4>
 					<h5>Required Skills (Freshers):</h5>
 					<ul class=" col-md-12 list-circle text_content">
@@ -73,29 +70,6 @@
 					</ul>
 					<!-- Trigger the modal with a button -->
 					<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#applyJob">Apply Now</button>
-					<br/>
-					<br/>
-
-					<h4>Role: Business Development Manager (US IT Staffing)</h4>
-					<h4>Work Location: Hyderabad/Vijayawada</h4>
-					<h4>DESCRIPTION: </h4>
-					<p>ACME Business Solutions is in need of Senior Business Development Manager who is responsible getting client accounts. Desired candidate must have an existing client relationship and a proven track record of success in getting IT Clients. Your goal is to identify potential clients and interact with Hiring Managers of clients who regularly releasing contract and/or contract-to-hire IT Staff augmentation services. You will be responsible in materializing existing vendor/client accounts or contracts and build this network.
-					</p>
-					<h4>Required Skills:</h4>
-					<ul class=" col-md-12 list-circle text_content">
-						<li>Strong knowledge of Staffing Industry.</li>					
-						<li>Must have a proven track record in getting new client acquisition and business development.</li>					
-						<li>Identify Client requirements and maintain relationships to serve clients in a better way.</li>					
-						<li>Leverage existing relationships and network to open new business
-							Interact routinely with various levels of management, functional leads, other staff, and customers
-							Ability to travel as required, based on negotiated work location.</li>					
-						<li>Sole responsibility is to obtain new job orders for recruiters to fill.</li>					
-						<li>Excellent presentation and written communication skills in consultative settings, interact with compliance/Hiring Managers and Business Owners.</li>					
-						<li>Effectively present our services to new and existing clients.</li>					
-					</ul>
-					<!-- Trigger the modal with a button -->
-					<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#applyJob">Apply Now</button>
-					<br/>
 
 				</div>
 			</div>
